@@ -27,21 +27,29 @@ LDAP Certificate Tool
 In Azure Active Directory Domain Services console, create a new Enterprise Application (non-gallery application).
 Configure Mode as: SAML-based Sign-on
 Basic SAML Configuration:
-Identifier (Entity ID): PasswordVault
-Reply URL: https://<customer>.privilegecloud.cyberark.com/PasswordVault/api/auth/saml/logon
-Check 'Show advanced URL settings' > Sign on URL: https://<customer>.privilegecloud.cyberark.com/PasswordVault/v10/logon/saml
-Logout URL: https://<customer>.privilegecloud.cyberark.com/PasswordVault/logoff.aspx
+Identifier (Entity ID): 
+```
+PasswordVault
+```
+Reply URL: 
+```
+https://<customer>.privilegecloud.cyberark.com/PasswordVault/api/auth/saml/logon
+```
+Check 'Show advanced URL settings' > Sign on URL: 
+```
+https://<customer>.privilegecloud.cyberark.com/PasswordVault/v10/logon/saml
+```
+Logout URL:
+```
+https://<customer>.privilegecloud.cyberark.com/PasswordVault/logoff.aspx
+```
 User Attributes & Claims
-•  Unique User Identifier: samaccountname 
+•  Unique User Identifier: 
+```
+samaccountname 
+```
+
 Provide CyberArk:
-In 'Set up CyberArk SAML Authentication':
-i. Login URL:  https://https://login.microsoftonline.com/xxx-xxx-xxxx/saml2
-ii. Azure AD Identifier: https://https://sts.windows.net/xxx-xxx-xxxx/
-iii. Logout URL: https://login.microsoftonline.com/common/wsfederation?wa=wsignout1.0
-Certificate that is base64 encoded
-
-OR
-
 In 'SAML Signing Certificate':
 The 'App Federation Metadata Url' which will contain the information from above (Recommended)
 
