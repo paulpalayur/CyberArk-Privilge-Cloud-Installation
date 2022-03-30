@@ -89,33 +89,46 @@ passwd proxymng
 groupadd proxymanagers
 usermod -a -G proxymanagers proxymng
 ```
-  
-### Update sshd_config
+Modify SSHD
+```
 vi /etc/ssh/sshd_config
+```
+
+Add th following line to the bottom of the file
+```
 AllowGroups proxymanagers PSMConnectUsers
-  
-// Save the file
- 
+```
+Restart the SSH service
+
+```
 service sshd restart
 service sshd status
-  
+```
 
-clear
+Change Directory to /home/localadmin/PSMP/
+```
 cd /home/localadmin/PSMP/
-ls -ltr
+```
+Unzip CyberArk Files
+```
+ls
 unzip PrivilegedSessionManagerSSHProxy-RHELinux8-Intel64-Rls-v12.2.zip
 unzip psmpwiz122.zip
-clear
+```
+Set the follwoing files to exexutable
+```
 ls -ltr
-chmod 755 CreateCredFile
 chmod 755 CARKpsmp-12.02.0.10.x86_64.rpm
+chmod 755 CreateCredFile
 chmod 755 psmpwiz122.sh
-clear
-ls -ltr
-clear
+```
+
+Run the PSMP install script
+```
 ./psmpwiz122.sh
-exit
-history
+```
+  
+
 
 
 PSM for SSH requirements
