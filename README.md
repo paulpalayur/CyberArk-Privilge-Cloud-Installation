@@ -104,17 +104,17 @@ service sshd restart
 service sshd status
 ```
 
-Change Directory to /home/localadmin/PSMP/
+### Change Directory to /home/localadmin/PSMP/
 ```
 cd /home/localadmin/PSMP/
 ```
-Unzip CyberArk Files
+### Unzip CyberArk Files
 ```
 ls
 unzip PrivilegedSessionManagerSSHProxy-RHELinux8-Intel64-Rls-v12.2.zip
 unzip psmpwiz122.zip
 ```
-Set the follwoing files to exexutable
+### Set the follwoing files to exexutable
 ```
 ls -ltr
 chmod 755 CARKpsmp-12.02.0.10.x86_64.rpm
@@ -122,7 +122,7 @@ chmod 755 CreateCredFile
 chmod 755 psmpwiz122.sh
 ```
 
-Run the PSMP install script
+### Run the PSMP install script
 ```
 ./psmpwiz122.sh
 ```
