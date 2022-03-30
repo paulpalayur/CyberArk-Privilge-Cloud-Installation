@@ -89,17 +89,16 @@ passwd proxymng
 groupadd proxymanagers
 usermod -a -G proxymanagers proxymng
 ```
-Modify SSHD
+### Modify SSHD Config File
 ```
 vi /etc/ssh/sshd_config
 ```
 
-Add th following line to the bottom of the file
+Add the following line to the bottom of /etc/ssh/sshd_config
 ```
 AllowGroups proxymanagers PSMConnectUsers
 ```
 Restart the SSH service
-
 ```
 service sshd restart
 service sshd status
