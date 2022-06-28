@@ -4,16 +4,14 @@ CyberArk Privilege Cloud Installation Notes
 ## 01 - Pre-Requisites Script
 Download Pre-Requisites Script from the SFE.
 
-https://cyberark-customers.force.com/s/article/Privilege-Cloud-How-to-run-the-PSMCheck
+[Pre-Requisites Script](https://cyberark-customers.force.com/s/article/Privilege-Cloud-How-to-run-the-PSMCheck)
 
 
 ## 02 - Connector Install
 
-Hardware Requirements
-https://docs.cyberark.com/Product-Doc/OnlineHelp/PrivCloud/Latest/en/Content/Privilege%20Cloud/PrivCloud-sys-req-connector.htm?tocpath=Setup%7CSystem%20requirements%7C_____2
+[Hardware Requirements](https://docs.cyberark.com/Product-Doc/OnlineHelp/PrivCloud/Latest/en/Content/Privilege%20Cloud/PrivCloud-sys-req-connector.htm?tocpath=Setup%7CSystem%20requirements%7C_____2)
 
-Network Requirements
-https://docs.cyberark.com/Product-Doc/OnlineHelp/PrivCloud/Latest/en/Content/Privilege%20Cloud/PrivCloud-sys-req-networks.htm?tocpath=Setup%7CSystem%20requirements%7C_____1
+[Network Requirements](https://docs.cyberark.com/Product-Doc/OnlineHelp/PrivCloud/Latest/en/Content/Privilege%20Cloud/PrivCloud-sys-req-networks.htm?tocpath=Setup%7CSystem%20requirements%7C_____1)
 
 
 
@@ -138,9 +136,7 @@ chmod 755 psmpwiz122.sh
 
 
 
-PSM for SSH requirements
-https://docs.cyberark.com/Product-Doc/OnlineHelp/PrivCloud/Latest/en/Content/Privilege%20Cloud/PrivCloud-sys-req-PSM-SSH.htm?tocpath=Setup%7CSystem%20requirements%7C_____3
+[PSM for SSH requirements](https://docs.cyberark.com/Product-Doc/OnlineHelp/PrivCloud/Latest/en/Content/Privilege%20Cloud/PrivCloud-sys-req-PSM-SSH.htm?tocpath=Setup%7CSystem%20requirements%7C_____3)
 
-##
 
 
