@@ -20,7 +20,7 @@ Global Const $CLIENT_EXECUTABLE  = 'mmc "C:\Windows\System32\dsa.msc"' ; CHANGE_
 * You can also create a custom MMC snap-in which includes limited tools like ADUC and DNS and set the $CLIENT_EXECUTABLE path to the new .msc path
 * It is recommended to test the AutoIt script that you developed before you compile it
 * To test the script perform the following steps:
-* You will have to add the following property to the PSMGenericClientDriver.xml
+* You will have to add the following properties to the `PSMGenericClientDriver.xml` before testing
 ```
 Note: update the property values with the correct details
 <SessionProperties>
@@ -74,7 +74,7 @@ True
 ```
 * Restart Cyber-Ark Privileged Session Manager service
 
-## Phase 3 - Adding a new Connection Component and updating Platform settings
+## Phase 3 - Updates to PVWA Web Portal
 * Login to PVWA as Vault Administrator
 * Navigate to https://pvwa-address/PasswordVault/v10/Classic/system.aspx
 * Click on Options
