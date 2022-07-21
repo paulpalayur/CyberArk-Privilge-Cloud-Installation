@@ -79,7 +79,7 @@ For ex:
 "C:\Scripts\MMC\PSMMMCDispatcher.exe" "C:\Scripts\MMC\" /test
 ```
 
-## Phase 2 - Updating PSM Components folder and Updating PSM App Locker
+## Phase 2 - Updating PSM Components folder and PSM App Locker
 
 * Copy the exe file to PSM installation folder/Components
 * Update the `PSMConfigureAppLocker.xml` to include the following applications
