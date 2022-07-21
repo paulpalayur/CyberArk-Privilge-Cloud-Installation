@@ -73,10 +73,10 @@ For ex:
 ```
 Note: make sure you have navigated to the dispactcher exe file location in cmd
 
-"installation_path_of_AutoIt.exe" "Dispatcher_filename" "Path_to_the_Dispatche_FileName\" /test
+"Path_to_the_Dispatche_File\Dispatcher_filename" "Path_to_the_Dispatche_FileName\" /test
 
 For ex:
-"C:\Program Files (x86)\AutoIt3\AutoIt3.exe" "PSMMMCDispatcher.exe" "C:\Scripts\MMC\" /test
+"C:\Scripts\MMC\PSMMMCDispatcher.exe" "C:\Scripts\MMC\" /test
 ```
 
 ## Phase 2 - Updating PSM Components folder and Updating PSM App Locker
